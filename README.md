@@ -53,30 +53,42 @@ cd customer-churn-app
 
 2️⃣ Create Virtual Environment (Recommended)
 
+```bash
 python -m venv venv
+```
 
 Activate the environment:
 
 Windows
 
+```bash
 venv\Scripts\activate
+```
 
 Mac/Linux
 
+```bash
 source venv/bin/activate
+```
 
 3️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Run the Streamlit App
 
+```bash
 streamlit run app.py
+```
 
 5️⃣ Access the Application
 
 After running the command, Streamlit will automatically launch in your browser at:
 
+```bash
 http://localhost:8501
+```
 
 If it does not open automatically, copy the URL above into your browser.
