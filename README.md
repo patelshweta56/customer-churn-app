@@ -124,7 +124,6 @@ If it does not open automatically, copy the URL above into your browser.
 
 🚀 Future Scope
 
-```bash
 
 - 📈 Integration with CRM systems for automated retention workflows
 - 📊 Advanced dashboard with churn trend analytics
@@ -133,24 +132,20 @@ If it does not open automatically, copy the URL above into your browser.
 - 🌐 REST API integration for enterprise applications
 - 🔐 Role-based authentication system
 - ☁️ Deployment using Docker & cloud infrastructure
-```
+  
+---
 
 📜 License Section
 
 If you are using MIT License (recommended):
 
-```bash
-## 📄 License
-
 This project is licensed under the MIT License.  
 See the LICENSE file for more details.
-```
+
+---
+
 
 🤝 Acknowledgement Section
 
-```bash
-## 🙏 Acknowledgements
-
 This project was developed as part of a machine learning deployment initiative.  
 Gratitude to the open-source community and educational resources that made this project possible.
-```
