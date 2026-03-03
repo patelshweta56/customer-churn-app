@@ -122,41 +122,9 @@ If it does not open automatically, copy the URL above into your browser.
 
 ---
 
-🖥️ 2️⃣ Application Screenshots Section
-
-First, upload your screenshots to GitHub inside a folder:
-
-Create a folder:
+🚀 Future Scope
 
 ```bash
-assets/
-```
-
-Upload your web app images there, for example:
-
-```bash
-assets/homepage.png
-assets/prediction.png
-```
-
-Then add this section in README:
-
-```bash
-## 📸 Application Preview
-
-### 🏠 Home Interface
-![Home Interface](assets/homepage.png)
-
-### 📊 Churn Prediction Result
-![Prediction Output](assets/prediction.png)
-```
-
-That will automatically display images inside GitHub.
-
-🚀 3️⃣ Future Scope
-
-```bash
-## 🔮 Future Scope
 
 - 📈 Integration with CRM systems for automated retention workflows
 - 📊 Advanced dashboard with churn trend analytics
@@ -167,19 +135,9 @@ That will automatically display images inside GitHub.
 - ☁️ Deployment using Docker & cloud infrastructure
 ```
 
-📜 4️⃣ License Section
+📜 License Section
 
 If you are using MIT License (recommended):
-
-```bash
-## 📄 License
-
-This project is licensed under the MIT License.
-
-You are free to use, modify, and distribute this software with proper attribution.
-```
-
-If you want it more corporate:
 
 ```bash
 ## 📄 License
@@ -188,21 +146,7 @@ This project is licensed under the MIT License.
 See the LICENSE file for more details.
 ```
 
-🤝 5️⃣ Acknowledgement Section
-
-Professional corporate tone:
-
-```bash
-## 🙏 Acknowledgements
-
-- Scikit-learn community for machine learning framework
-- Streamlit for rapid web application development
-- Open-source contributors for continuous ecosystem improvements
-
-Special thanks to mentors and peers for guidance during development.
-```
-
-If you want a slightly personal but still professional tone:
+🤝 Acknowledgement Section
 
 ```bash
 ## 🙏 Acknowledgements
