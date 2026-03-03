@@ -122,7 +122,7 @@ If it does not open automatically, copy the URL above into your browser.
 
 ---
 
-🚀 Future Scope
+## 🚀 Future Scope
 
 
 - 📈 Integration with CRM systems for automated retention workflows
@@ -135,7 +135,7 @@ If it does not open automatically, copy the URL above into your browser.
   
 ---
 
-📜 License Section
+## 📜 License Section
 
 If you are using MIT License (recommended):
 
@@ -145,7 +145,7 @@ See the LICENSE file for more details.
 ---
 
 
-🤝 Acknowledgement Section
+## 🤝 Acknowledgement Section
 
 This project was developed as part of a machine learning deployment initiative.  
 Gratitude to the open-source community and educational resources that made this project possible.
