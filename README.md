@@ -26,3 +26,40 @@ This application allows users to input customer details and instantly receive:
 ---
 
 ## 📂 Project Structure
+
+Customer-Churn-App/
+│
+├── app.py # Main Streamlit application
+├── retrain_model.py # Script to retrain model (optional)
+├── model.pkl # Trained ML model
+├── scaler.pkl # StandardScaler object
+├── label_encoder_gender.pkl # Gender encoder
+├── onehot_encoder_geo.pkl # Geography encoder
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+└── LICENSE # License file
+
+
+---
+
+## ⚙️ Installation & Run (Local)
+
+1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/customer-churn-app.git
+cd customer-churn-app
+
+2️⃣ Create Virtual Environment (Recommended)
+
+python -m venv venv
+venv\Scripts\activate     # Windows
+
+3️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+4️⃣ Run the App
+
+streamlit run app.py
+
