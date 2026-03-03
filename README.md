@@ -46,8 +46,10 @@ Customer-Churn-App/
 
 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/YOUR_USERNAME/customer-churn-app.git
 cd customer-churn-app
+```
 
 2️⃣ Create Virtual Environment (Recommended)
 
