@@ -67,12 +67,17 @@ input_data = input_data[scaler.feature_names_in_]
 input_data_scaled = scaler.transform(input_data)
 
 # Predict
-prediction = model.predict(input_data_scaled)
-prediction_proba = prediction[0, 1]
+prediction = model.predict_proba(input_data_scaled)
 
-st.write(f'Churn Probability: {prediction_proba:.2f}')
+# Safely extract churn probability
+if prediction.ndim == 2 and prediction.shape[1] > 1:
+    prediction_proba = prediction[0, 1]
+else:
+    prediction_proba = prediction[0]
+
+st.write(f"Churn Probability: {prediction_proba:.2f}")
 
 if prediction_proba > 0.5:
-    st.error('The customer is likely to churn.')
+    st.write("The customer is likely to churn.")
 else:
-    st.success('The customer is not likely to churn.')
+    st.write("The customer is not likely to churn.")
