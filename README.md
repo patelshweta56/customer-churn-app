@@ -46,20 +46,35 @@ Customer-Churn-App/
 
 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/customer-churn-app.git
 cd customer-churn-app
 
 2️⃣ Create Virtual Environment (Recommended)
 
 python -m venv venv
-venv\Scripts\activate     # Windows
+
+Activate the environment:
+
+Windows
+
+venv\Scripts\activate
+
+Mac/Linux
+
+source venv/bin/activate
 
 3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-4️⃣ Run the App
+4️⃣ Run the Streamlit App
 
 streamlit run app.py
 
+5️⃣ Access the Application
+
+After running the command, Streamlit will automatically launch in your browser at:
+
+http://localhost:8501
+
+If it does not open automatically, copy the URL above into your browser.
